@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imKosmetik</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__navbar">
+                <div class="header__logo">
+                    <a href="index.html">
+                        <img src="imges/logo.svg" alt="logo imkosmetik" class="header__logo-img">
+                    </a>
+                </div>
+                <nav class="header__menu">
+                    <ul class="menu__list">
+                        <li class="menu__list-item">
+                            <a href="#" class="menu-link">Главная</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a href="#" class="menu-link">Новинки</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a href="#" class="menu-link">Каталог</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a href="#" class="menu-link">Контакты</a>
+                        </li>
+
+                        <li class="menu__list-item">
+                            <a href="#" class="menu-link">Наши магазины</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a href="#">
+                                <img src="imges/basket.svg" alt="Корзина" class="cart-icon">
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="imges/manicure.svg" alt="manicure" class="banner-img">
+                </div>
+                <div class="col-2">
+                    <h1 class="title">Запишись<br>на мастер-класс!</h1>
+                    <p class="section-text">Наши мастера научать тебя делать красивый и качественный маникюр </p>
+                    <a href="#form" class="btn">Записаться</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="imges/lacquer.svg" alt="lacquer" class="categories-img">
+                    <p class="categories__text">Большой выбор цветов</p>
+                </div>
+                <div class="col-3">
+                    <img src="imges/cream.svg" alt="cream" class="categories-img">
+                    <p class="categories__text">Бережный уход</p>
+                </div>
+                <div class="col-3 del">
+                    <img src="imges/nail file.svg" alt="nail file" class="categories-img">
+                    <P class="categories__text">Высокий профиссионализм</P>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="works">
+        <div class="small-container">
+            <h2 class="subtitle">Наши работы</h2>
+            <div class="row">
+                <div class="col-4">
+                    <img src="imges/example1.jpg" alt="example">
+                </div>
+                <div class="col-4">
+                    <img src="imges/example2.jpg" alt="example">
+                </div>
+                <div class="col-4">
+                    <img src="imges/example3.jpg" alt="example">
+                </div>
+                <div class="col-4">
+                    <img src="imges/example4.jpg" alt="example">
+                </div>
+            </div>
+    </section>
+
+    <section class="masters">
+        <div class="small-container">
+            <h3 class="master-title">Наши мастера</h3>
+            <hr>
+            <div class="row">
+                <div class="col-3">
+                    <p class="masters__text">Мастер маникюра с опытом работы в индустрии красоты более пяти лет. Обладаю
+                        глубокими знаниями и навыками в уходе за ногтями и отличной способностью общаться с клиентами.
+                    </p>
+                    <img src="imges/master1.svg" alt="мастер" class="masters-img">
+                    <h3 class="masters-name">Екатерина</h3>
+                </div>
+                <div class="col-3">
+                    <p class="masters__text">Мастер маникюра с опытом работы в индустрии более семи лет. Моя работа
+                        включает в себя различные виды маникюра и педикюра, включая сложные случаи и восстановление
+                        поврежденных ногтей.</p>
+                    <img src="imges/master2.svg" alt="мастер" class="masters-img">
+                    <h3 class="masters-name">Светлана</h3>
+                </div>
+                <div class="col-3 del ">
+                    <p class="masters__text">Мастер маникюра с опытом работы в индустрии три года. Моими основными
+                        направлениями в работе являются разные виды маникюра. Я владею множеством техник покрытия
+                        гель-лаком, а также наращивания ногтей.</p>
+                    <img src="imges/master3.svg" alt="мастер" class="masters-img">
+                    <h3 class="masters-name">Мария</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="form">
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <div class="form-container">
+                        <form action="#" id="form">
+                            <p>Запишитесь на наш мастер-класс</p>
+                            <input type="text" placeholder="Ваше имя" required class="field">
+                            <input type="tel" placeholder="Телефон" required class="field">
+                            <input type="email" placeholder="Email" required class="field">
+                            <input type="date" required>
+                            <button type="submit" class="btn">Записаться</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <img src="imges/hand.svg" alt="nail" class="img-form">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <hr>
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3 class="footer-subtitle">Обратная связь</h3>
+                        <p class="footer-text">+7 (499) 500-14-52 <br>г. МОСКВА</p>
+                        <br>
+                        <p class="footer-text">+7 (343) 328-09-33 <br>г. ЕКАТЕРИНБУРГ</p>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="imges/logo.svg" alt="Logo" class="footer-logo">
+                        </p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3 class="footer-subtitle">Популярные разделы</h3>
+                        <ul class="footer__list">
+                            <li class="footer__list-item">Kodi Professional</li>
+                            <li class="footer__list-item">Bloom</li>
+                            <li class="footer__list-item">TNL Professional</li>
+                            <li class="footer__list-item">Cosmoprofi</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+</body>
+
+</html>
