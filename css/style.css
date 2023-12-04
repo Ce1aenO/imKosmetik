@@ -404,7 +404,7 @@ form .btn {
     }
 }
 
-@media (max-width: 380px) {
+@media (min-width: 380px) and (max-widht: 430px) {
     .container {
         max-width: 380px;
     }
